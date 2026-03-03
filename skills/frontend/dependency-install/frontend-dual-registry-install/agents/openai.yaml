@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frontend Dual Registry Install"
+  short_description: "Split public/internal dependency install for geo-* packages"
+  default_prompt: "Use this skill to ask npm/pnpm first, remove geo-* dependencies to backup, install public deps from npmmirror, then install geo-* deps from internal registry without retry on failure."
